@@ -2,9 +2,9 @@
   "name": "js-constructor",
   "version": "1.0.0",
   "description": "javascript pure application",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "serve": "parcel ./src/index.html"
+    "serve": "parcel ./src/index.html -p 4200 --open"
   },
   "keywords": [
     "js",
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
   }
 }

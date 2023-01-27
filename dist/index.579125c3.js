@@ -1,7 +1,7 @@
 const model = [
     {
         type: "title",
-        value: "Hello World from JS"
+        value: "Hello World from JS!!!"
     },
     {
         type: "text",
